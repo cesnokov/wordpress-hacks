@@ -1,8 +1,9 @@
 <?php
 
-// Override the "Attachments Details" and "Attachments Details Two Column" Backbone micro templates
+// Override "Attachments Details", "Attachments Details Two Column" and "Gallery Setting" Backbone micro templates
 add_action( 'admin_footer-post.php', 'modified_attachments_details_template' );
 add_action( 'admin_footer-upload.php', 'modified_attachments_details_two_column_template' );
+add_action( 'admin_footer-post.php', 'modified_gallery_details_template' );
 
 function modified_attachments_details_template(){
 ?>
